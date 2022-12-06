@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+ font-family: 'Roboto', sans-serif;
+ text-align: center;
+ background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_640.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 200px;
+}
+form{
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 1px 8px rgb(51, 0, 255);
+  
+}
+label{
+    display: inline-block;
+    text-align: left;
+    width: 110px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bolder;
+    
+}
+.save{
+    background-color: palevioletred;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 15px ;
+    margin-top: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black;
+}
+.save:hover{
+    background-color: coral;
+    color: white;
+    
+}
+.in{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+   
+}
+
